@@ -1,0 +1,7 @@
+- @body_classes = "friends"
+
+%h1 Friends
+- @users.each do|user|
+  %p= user.email
+
+

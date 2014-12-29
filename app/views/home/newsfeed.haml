@@ -1,0 +1,7 @@
+- @body_classes = "newsfeed"
+
+%h1 Newsfeed
+- @posts.each do |post|
+ %p= "#{post.content} by #{post.user.email}"
+- @users.each do |user|
+ %p= "#{user.email} signed up at #{user.created_at}"

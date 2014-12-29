@@ -1,0 +1,22 @@
+body {
+  .title-bar {
+    overflow: hidden;
+    background: blue;
+
+    h1 a {
+      color: white;
+      text-decoration: none;
+      float: left;
+    }
+
+  .links {
+    float: right;
+
+     a {
+      color: white;
+      text-decoration: none;
+     }
+  }
+
+  }
+}

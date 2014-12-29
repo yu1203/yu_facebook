@@ -1,0 +1,5 @@
+.title-bar
+  %h1= link_to :Facebook, root_path
+
+  .links
+    = link_to :Logout, destroy_user_session_path, method: :delete
